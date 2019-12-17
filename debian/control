@@ -1,0 +1,12 @@
+Source: ros-kinetic-test-package
+Section: misc
+Priority: extra
+Maintainer: Tester <test@test.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, curl, libcurl4-openssl-dev, libssl-dev, ros-kinetic-catkin, ros-kinetic-ros-environment, uuid-dev, zlib1g-dev
+Homepage: http://wiki.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-test-package
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl, libcurl4-openssl-dev, libssl-dev, uuid-dev, zlib1g-dev
+Description: Test Package
